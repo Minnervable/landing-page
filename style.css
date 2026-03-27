@@ -2,8 +2,8 @@
   font-family: roboto, sans-serif;
   display: flex;
   flex-direction: column;
-  margin: 0 50px;
-  padding: 0 100px;
+  margin: 0;
+  padding: 0;
 }
 
 .header-box,
@@ -17,8 +17,8 @@
   /* border: 3px solid palevioletred; */
   /* has children header-left and links-container */
   display: flex;
-  margin: 0;
-  padding: 0;
+  /* margin: 0 auto; */
+  padding: 15px;
   gap: 7px;
   justify-content: space-between;
 }
