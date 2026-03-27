@@ -1,4 +1,7 @@
 .landing-page {
+  /* border: 3px solid palevioletred; */
+  /* has children header-box, hero, info, quote,
+  call to action, footer */
   font-family: roboto, sans-serif;
   display: flex;
   flex-direction: column;
@@ -9,18 +12,21 @@
 .header-box,
 .hero,
 .footer {
+  /* border: 3px solid palevioletred; */
   background-color: #1f2937;
   color: #f9faf8;
 }
 
 .header-box {
   /* border: 3px solid palevioletred; */
+  /* child of landing-page */
   /* has children header-left and links-container */
   display: flex;
   /* margin: 0 auto; */
-  padding: 15px;
+  padding: 30px;
   gap: 7px;
-  justify-content: space-between;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .header-left {
@@ -29,6 +35,7 @@
   /* has children logo and header */
   display: flex;
   flex-direction: row;
+  gap: 10px;
 }
 
 .logo,
@@ -36,6 +43,7 @@
   /* child of header-left */
   /* border: 3px solid palevioletred; */
   flex: 1;
+  font-size: 24px;
 }
 
 .links-container {
@@ -54,4 +62,42 @@ a {
   text-decoration: none;
   font-size: 18px;
   color: #f9faf8;
+}
+
+.hero {
+  /* child of landing-page */
+  /* has children hero-right, hero-left */
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.hero-right {
+  /* child of hero */
+  /* has child image */
+  background-color: lightgray;
+  height: 200px;
+  width: 500px;
+}
+
+.hero-left {
+  /* child of hero */
+  /* has children h1 p and button */
+}
+
+.hero-left h1 {
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.hero-left p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.hero-left button {
+  background-color: #3882f6;
+  border-radius: 5px;
 }
