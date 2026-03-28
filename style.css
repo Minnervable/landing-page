@@ -4,6 +4,7 @@
   call to action, footer */
   font-family: roboto, sans-serif;
   display: flex;
+  box-sizing: border-box;
   flex-direction: column;
   margin: 0;
   padding: 0;
@@ -77,14 +78,17 @@ a {
 .hero-right {
   /* child of hero */
   /* has child image */
-  background-color: lightgray;
+  background-color: lightgrey;
   height: 200px;
   width: 500px;
+  align-content: center;
 }
 
 .hero-left {
   /* child of hero */
   /* has children h1 p and button */
+  padding: 45px;
+  box-sizing: border-box;
 }
 
 .hero-left h1 {
@@ -100,4 +104,42 @@ a {
 .hero-left button {
   background-color: #3882f6;
   border-radius: 5px;
+}
+
+.info {
+  border: 3px solid palevioletred;
+  /* child of landing page */
+  /* has children info-header, info-content */
+  display: flex;
+  flex-direction: column;
+}
+
+.info-header {
+  border: 3px solid palevioletred;
+  /* child of info */
+  /* has child h2 */
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+}
+
+.info-content {
+  border: 3px solid palevioletred;
+  /* child of info */
+  /* has children 4x pics-w-defs */
+  display: flex;
+}
+
+.pics-w-defs {
+  border: 3px solid palevioletred;
+  /* child of info-content */
+  /* has children img and p */
+  
+  .info-pics {
+    /* child of pics-w-defs */
+    /* has child img */
+    width: 100px;
+    height: 100px;
+    border: 3px solid #3882f6;
+    border-radius: 10px;
 }
