@@ -133,13 +133,24 @@ a {
 .pics-w-defs {
   border: 3px solid palevioletred;
   /* child of info-content */
-  /* has children img and p */
-  
-  .info-pics {
-    /* child of pics-w-defs */
-    /* has child img */
-    width: 100px;
-    height: 100px;
-    border: 3px solid #3882f6;
-    border-radius: 10px;
+  /* has children info-pics and p */
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+}
+
+.info-pics {
+  /* child of pics-w-defs */
+  /* has child img */
+  width: 100px;
+  height: 100px;
+  border: 3px solid #3882f6;
+  border-radius: 10px;
+}
+
+.pics-w-defs p {
+  box-sizing: border-box;
 }
