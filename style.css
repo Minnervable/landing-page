@@ -16,6 +16,8 @@
   /* border: 3px solid palevioletred; */
   background-color: #1f2937;
   color: #f9faf8;
+  margin: 0;
+  padding: 0;
 }
 
 .header-box {
@@ -107,7 +109,7 @@ a {
 }
 
 .info {
-  border: 3px solid palevioletred;
+  /* border: 3px solid palevioletred; */
   /* child of landing page */
   /* has children info-header, info-content */
   display: flex;
@@ -115,23 +117,28 @@ a {
 }
 
 .info-header {
-  border: 3px solid palevioletred;
+  /* border: 3px solid palevioletred; */
   /* child of info */
   /* has child h2 */
   font-size: 36px;
   color: #1f2937;
   font-weight: 900;
+  text-align: center;
 }
 
 .info-content {
-  border: 3px solid palevioletred;
+  /* border: 3px solid palevioletred; */
   /* child of info */
   /* has children 4x pics-w-defs */
   display: flex;
+  box-sizing: border-box;
+  padding: 50px;
+  align-items: center;
+  justify-content: center;
 }
 
 .pics-w-defs {
-  border: 3px solid palevioletred;
+  /* border: 3px solid palevioletred; */
   /* child of info-content */
   /* has children info-pics and p */
   display: flex;
@@ -145,12 +152,29 @@ a {
 .info-pics {
   /* child of pics-w-defs */
   /* has child img */
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
   border: 3px solid #3882f6;
   border-radius: 10px;
 }
 
 .pics-w-defs p {
-  box-sizing: border-box;
+  /* border: 3px solid palevioletred; */
+  width: 200px;
+  text-align: center;
+}
+
+.quote-box {
+  border: 3px solid palevioletred;
+  /* child of landing page */
+  /* has children blockquote and p */
+  background-color: #e5e7eb;
+}
+
+.quote-text {
+  border: 3px solid palevioletred;
+
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 300;
 }
