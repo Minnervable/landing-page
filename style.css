@@ -40,16 +40,9 @@ body {
 .header-left {
   /* border: 3px solid palevioletred; */
   /* child of header-box  */
-  /* has children logo and header */
   display: flex;
   flex-direction: row;
   gap: 10px;
-}
-
-.logo,
-.header {
-  /* child of header-left */
-  /* border: 3px solid palevioletred; */
   flex: 1;
   font-size: 24px;
 }
