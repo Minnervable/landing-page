@@ -1,3 +1,8 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .landing-page {
   /* border: 3px solid palevioletred; */
   /* has children header-box, hero, info, quote,
@@ -169,12 +174,23 @@ a {
   /* child of landing page */
   /* has children blockquote and p */
   background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  margin: 0;
 }
 
 .quote-text {
   border: 3px solid palevioletred;
-
+  /* child of blockquote */
   font-size: 36px;
   color: #1f2937;
   font-weight: 300;
+  width: 800px;
+}
+
+.quote-box p {
+  border: 3px solid palevioletred;
 }
