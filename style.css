@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -43,8 +47,10 @@ body {
   display: flex;
   flex-direction: row;
   gap: 10px;
-  flex: 1;
+  /* flex: 1; */
   font-size: 24px;
+  box-sizing: border-box;
+  padding: 0 30px;
 }
 
 .links-container {
@@ -57,6 +63,7 @@ body {
   gap: 5px;
   margin: 0;
   padding: 0;
+  /* flex: 1; */
 }
 
 a {
@@ -72,7 +79,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 8px;
+  gap: 65px;
 }
 
 .hero-right {
