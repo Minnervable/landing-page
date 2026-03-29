@@ -170,7 +170,7 @@ a {
 }
 
 .quote-box {
-  border: 3px solid palevioletred;
+  /* border: 3px solid palevioletred; */
   /* child of landing page */
   /* has children blockquote and p */
   background-color: #e5e7eb;
@@ -183,7 +183,7 @@ a {
 }
 
 .quote-text {
-  border: 3px solid palevioletred;
+  /* border: 3px solid palevioletred; */
   /* child of blockquote */
   font-size: 36px;
   color: #1f2937;
@@ -191,6 +191,8 @@ a {
   width: 800px;
 }
 
-.quote-box p {
-  border: 3px solid palevioletred;
+.quote-box .quote-cite {
+  /* border: 3px solid palevioletred; */
+  text-align: right;
+  width: 800px;
 }
