@@ -14,3 +14,7 @@ Photo by Anna Shvets: https://www.pexels.com/photo/white-rabbit-with-party-hat-o
 Photo by Lê Quý Đôn: https://www.pexels.com/photo/elegant-woman-in-pink-dress-with-butterfly-30809212/
 
 Photo by Landiva Weber: https://www.pexels.com/photo/abstract-pink-light-rays-with-water-droplets-effect-34842133/
+
+### Acknowledgments 
+
+The Odin Project 
